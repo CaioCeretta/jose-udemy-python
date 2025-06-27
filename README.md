@@ -1,1 +1,1 @@
-# Repository of   Jorge Portilla's Full Python Course Udemy
+# Repository of Jose Portilla's Full Python Course Udemy
