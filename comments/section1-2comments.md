@@ -136,10 +136,75 @@
       and executed
       ○ Because these options can change in the future, the instructor chose to not officially support them in this course 
 
+## Lesson 4 - Running python code
+
+● There are several ways to run Python code.
+● There are 3 main types of environments: 
+  ○ Text Editors
+    ■ General editors for any text-file, they're designed in a general format where they can open a text-file, or a .html
+    or .py. This means that any variety of file types we will be able to open them up and edit them.
+    ■ Can be  customized with plugins and addons
+    ■ Because of that, and their general format, they're not designed with only python in mind, meaning we would sacrifice
+    some python specific functionality, such as auto complete for python, or looking up things and documentation automatically
+    with python.
+    ■ If we wish this functionality we would need to download them or an addon/extension for it.
+
+  ○ Full IDEs
+
+    ■ Development environments designed specifically for Python
+    ■ Used in larger programs.
+    ■ Only community editions are free
+    ■ Lots of extra functionality
+    ■ Great when we have pieces of code that need to interact with each other 
 
 
+    ■ Most popular: PyCharm and Spyder
+    
 
+  ○ Notebook Environments
 
+    ■ Great for learning
+    ■ We can see the input code and the output code right next to each other
+    ■ Notebooks use blocs of code that are referred to as cells, and we can split our code into different cells and run
+    pieces of code by running individual cells
+    ■ Different from the approach of text editors and development environments, since we have to develop a larger script
+    first and then run the whole script
+
+    ■ Other things that differentiates the notebook environment is that they support inline markdown notes, which mean we
+    can write for ourselves pieces of notes — pieces of text, as well as visualizations, videos, and more
+    ● Special file formats that are not .py, and because of that, typically, if we see a .py script in our computer, we
+     double click on them, some sort of text editor is going to open it. Since notebooks are able to support extra stuff,
+     they have their own notebook format, which is .ipynb (i python notebook), and because of that, we can't actually open
+     a notebook file, we need to launch it using the jupyter notebook launcher.
+    ● Jupyter notebook is almost the only notebook environment for python because of how important it is.
+    
+  ● Running first python code
+
+      ■ Create a file and save it with a .py extension.\
+
+      ○ Running in different environments
+
+        ■ Terminal: open the terminal, move to the folder where the file is located an run `python fileName.py`
+        ■ Python: Anaconda direct connection: type python and we'll enter a direct connection which allow us to write python
+        code
+        ■ Notebook Environment: Open the anaconda navigator -> launch jupyter notebook -> create .py file -> type any python
+        code
+        
+      ○ Jupyter Notebook System
+
+        ■ Since we'll not use jupyter notebook for larger files like this, inside jupyter tab, we'll create a new python
+        notebook file
+        ■ Notebook uses a cell based system, meaning that we write code in a cell, execute, and then see the actual output
+        right below the cell (We can check this by simply printing something)
+        ■ Notebook system can hold markdown text, to do so, we simply click on a cell, then on a dropdown where it says code
+        and change it to markdown
+
+      ○ .ipynb
+
+        ■ We can notice that by double clicking .ipynb files, if we don't open it with an editor or system that supports
+        that kind of file, we'll end up seeing some scrambled code. Therefore, we'll have to open anaconda navigator,
+        jupyter notebook, and then open the file in order to edit or visualize it
+      
 
 
 
